@@ -48,6 +48,7 @@ set(MICROPY_SOURCE_DRIVERS
 )
 
 set(MICROPY_SOURCE_PORT
+    ${PROJECT_DIR}/softuart.c
     ${PROJECT_DIR}/main.c
     ${PROJECT_DIR}/uart.c
     ${PROJECT_DIR}/usb.c
@@ -67,6 +68,7 @@ set(MICROPY_SOURCE_PORT
     ${PROJECT_DIR}/machine_i2c.c
     ${PROJECT_DIR}/machine_i2s.c
     ${PROJECT_DIR}/machine_uart.c
+    ${PROJECT_DIR}/machine_softuart.c
     ${PROJECT_DIR}/modmachine.c
     ${PROJECT_DIR}/network_common.c
     ${PROJECT_DIR}/network_lan.c

@@ -9,6 +9,8 @@ typedef enum {
     MACHINE_WAKE_DEEPSLEEP=0x04
 } wake_type_t;
 
+extern const mp_obj_type_t pyb_softuart_type;
+
 extern const mp_obj_type_t machine_timer_type;
 extern const mp_obj_type_t machine_wdt_type;
 extern const mp_obj_type_t machine_pin_type;
